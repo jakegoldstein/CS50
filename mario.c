@@ -22,7 +22,7 @@ int main(int argc, const char * argv[]) {
 while (height > 23 || height < 0);
 
     
-    for ( int counter = 1 ; counter <= height; counter++) { //creates counter for usage in loops
+    for ( int counter = 1 ; counter <= height; counter++) { 
        
          for (int spaces = height - counter; spaces > 0 ; spaces -- ) { //loop for how many spaces will be printed
         printf(" ");
@@ -39,7 +39,7 @@ while (height > 23 || height < 0);
        
         
         
-        printf("\n"); //newline
+        printf("\n"); /
         
        
         
